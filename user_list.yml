@@ -1,0 +1,12 @@
+---
+users
+  - name: raja
+    id: 1005
+    first: sanmuga
+    middle: raja
+    last: sekar
+  - name: uma
+    id: 1006
+    first: kannan
+    middle: uma
+    last: rajan
