@@ -1,14 +1,14 @@
 {
     "plays": [
         {
-            "__play_name": "Install user",
-            "name": "Install user",
-            "pattern": "dev",
-            "play": "Install user",
-            "play_pattern": "dev",
-            "play_uuid": "aa802184-760f-3536-0cd1-000000000006",
+            "__play_name": "Installing the users",
+            "name": "Installing the users",
+            "pattern": "all",
+            "play": "Installing the users",
+            "play_pattern": "all",
+            "play_uuid": "42040b11-fc0f-9ad3-8589-000000000006",
             "playbook": "/home/student/create_complex_user/complex_users.yml",
-            "playbook_uuid": "33a9a8cf-efe7-4ab4-8f8e-53a67f4d6a25",
+            "playbook_uuid": "45a5285c-f1f1-4dee-92a3-69e3e2e310aa",
             "tasks": [
                 {
                     "__changed": false,
@@ -18,15 +18,15 @@
                     "__result": "Ok",
                     "__task": "Gathering Facts",
                     "__task_action": "gather_facts",
-                    "duration": 1.539068,
-                    "end": "2024-12-16T11:12:31.177618",
+                    "duration": 1.596049,
+                    "end": "2024-12-17T03:42:08.469165",
                     "event_loop": null,
                     "host": "serverc",
-                    "play": "Install user",
-                    "play_pattern": "dev",
-                    "play_uuid": "aa802184-760f-3536-0cd1-000000000006",
+                    "play": "Installing the users",
+                    "play_pattern": "all",
+                    "play_uuid": "42040b11-fc0f-9ad3-8589-000000000006",
                     "playbook": "/home/student/create_complex_user/complex_users.yml",
-                    "playbook_uuid": "33a9a8cf-efe7-4ab4-8f8e-53a67f4d6a25",
+                    "playbook_uuid": "45a5285c-f1f1-4dee-92a3-69e3e2e310aa",
                     "remote_addr": "serverc",
                     "res": {
                         "_ansible_no_log": null,
@@ -63,24 +63,24 @@
                                 "root": "/dev/vda3"
                             },
                             "ansible_date_time": {
-                                "date": "2024-12-16",
-                                "day": "16",
-                                "epoch": "1734347550",
-                                "epoch_int": "1734347550",
-                                "hour": "11",
-                                "iso8601": "2024-12-16T11:12:30Z",
-                                "iso8601_basic": "20241216T111230752328",
-                                "iso8601_basic_short": "20241216T111230",
-                                "iso8601_micro": "2024-12-16T11:12:30.752328Z",
-                                "minute": "12",
+                                "date": "2024-12-17",
+                                "day": "17",
+                                "epoch": "1734406928",
+                                "epoch_int": "1734406928",
+                                "hour": "03",
+                                "iso8601": "2024-12-17T03:42:08Z",
+                                "iso8601_basic": "20241217T034208045599",
+                                "iso8601_basic_short": "20241217T034208",
+                                "iso8601_micro": "2024-12-17T03:42:08.045599Z",
+                                "minute": "42",
                                 "month": "12",
-                                "second": "30",
-                                "time": "11:12:30",
+                                "second": "08",
+                                "time": "03:42:08",
                                 "tz": "UTC",
                                 "tz_dst": "UTC",
                                 "tz_offset": "+0000",
-                                "weekday": "Monday",
-                                "weekday_number": "1",
+                                "weekday": "Tuesday",
+                                "weekday_number": "2",
                                 "weeknumber": "51",
                                 "year": "2024"
                             },
@@ -101,19 +101,19 @@
                             "ansible_device_links": {
                                 "ids": {
                                     "vda": [
-                                        "virtio-4baf5bca-b496-4083-9"
+                                        "virtio-ed6d0b22-51c0-42b5-a"
                                     ],
                                     "vda1": [
-                                        "virtio-4baf5bca-b496-4083-9-part1"
+                                        "virtio-ed6d0b22-51c0-42b5-a-part1"
                                     ],
                                     "vda2": [
-                                        "virtio-4baf5bca-b496-4083-9-part2"
+                                        "virtio-ed6d0b22-51c0-42b5-a-part2"
                                     ],
                                     "vda3": [
-                                        "virtio-4baf5bca-b496-4083-9-part3"
+                                        "virtio-ed6d0b22-51c0-42b5-a-part3"
                                     ],
                                     "vdb": [
-                                        "virtio-630bd121-2600-4e44-b"
+                                        "virtio-69c42ba6-47d6-48ab-a"
                                     ]
                                 },
                                 "labels": {
@@ -137,7 +137,7 @@
                                     "host": "SCSI storage controller: Red Hat, Inc. Virtio block device",
                                     "links": {
                                         "ids": [
-                                            "virtio-4baf5bca-b496-4083-9"
+                                            "virtio-ed6d0b22-51c0-42b5-a"
                                         ],
                                         "labels": [],
                                         "masters": [],
@@ -149,7 +149,7 @@
                                             "holders": [],
                                             "links": {
                                                 "ids": [
-                                                    "virtio-4baf5bca-b496-4083-9-part1"
+                                                    "virtio-ed6d0b22-51c0-42b5-a-part1"
                                                 ],
                                                 "labels": [],
                                                 "masters": [],
@@ -165,7 +165,7 @@
                                             "holders": [],
                                             "links": {
                                                 "ids": [
-                                                    "virtio-4baf5bca-b496-4083-9-part2"
+                                                    "virtio-ed6d0b22-51c0-42b5-a-part2"
                                                 ],
                                                 "labels": [],
                                                 "masters": [],
@@ -183,7 +183,7 @@
                                             "holders": [],
                                             "links": {
                                                 "ids": [
-                                                    "virtio-4baf5bca-b496-4083-9-part3"
+                                                    "virtio-ed6d0b22-51c0-42b5-a-part3"
                                                 ],
                                                 "labels": [
                                                     "root"
@@ -217,7 +217,7 @@
                                     "host": "SCSI storage controller: Red Hat, Inc. Virtio block device",
                                     "links": {
                                         "ids": [
-                                            "virtio-630bd121-2600-4e44-b"
+                                            "virtio-69c42ba6-47d6-48ab-a"
                                         ],
                                         "labels": [],
                                         "masters": [],
@@ -453,16 +453,16 @@
                             },
                             "ansible_machine": "x86_64",
                             "ansible_machine_id": "8cbc546f42a540f19bb833bcd48304ee",
-                            "ansible_memfree_mb": 161,
+                            "ansible_memfree_mb": 366,
                             "ansible_memory_mb": {
                                 "nocache": {
-                                    "free": 540,
-                                    "used": 269
+                                    "free": 585,
+                                    "used": 224
                                 },
                                 "real": {
-                                    "free": 161,
+                                    "free": 366,
                                     "total": 809,
-                                    "used": 648
+                                    "used": 443
                                 },
                                 "swap": {
                                     "cached": 0,
@@ -474,18 +474,18 @@
                             "ansible_memtotal_mb": 809,
                             "ansible_mounts": [
                                 {
-                                    "block_available": 2039224,
+                                    "block_available": 2047956,
                                     "block_size": 4096,
                                     "block_total": 2592763,
-                                    "block_used": 553539,
+                                    "block_used": 544807,
                                     "device": "/dev/vda3",
                                     "fstype": "xfs",
-                                    "inode_available": 5138727,
+                                    "inode_available": 5139521,
                                     "inode_total": 5190592,
-                                    "inode_used": 51865,
+                                    "inode_used": 51071,
                                     "mount": "/",
                                     "options": "rw,seclabel,relatime,attr2,inode64,logbufs=8,logbsize=32k,noquota",
-                                    "size_available": 8352661504,
+                                    "size_available": 8388427776,
                                     "size_total": 10619957248,
                                     "uuid": "d47ead13-ec24-428e-9175-46aefa764b26"
                                 },
@@ -528,8 +528,8 @@
                             "ansible_processor_threads_per_core": 1,
                             "ansible_processor_vcpus": 1,
                             "ansible_product_name": "OpenStack Compute",
-                            "ansible_product_serial": "a66dcf54-eeaf-4973-a8d5-e0d2a7891676",
-                            "ansible_product_uuid": "a66dcf54-eeaf-4973-a8d5-e0d2a7891676",
+                            "ansible_product_serial": "657a8883-a204-431b-bf2a-90bb121373dd",
+                            "ansible_product_uuid": "657a8883-a204-431b-bf2a-90bb121373dd",
                             "ansible_product_version": "20.6.2-2.20221005185231.6786e96.el8ost",
                             "ansible_python": {
                                 "executable": "/usr/libexec/platform-python",
@@ -615,7 +615,7 @@
                             ],
                             "ansible_system_capabilities_enforced": "True",
                             "ansible_system_vendor": "Red Hat",
-                            "ansible_uptime_seconds": 3238,
+                            "ansible_uptime_seconds": 6700,
                             "ansible_user_dir": "/root",
                             "ansible_user_gecos": "root",
                             "ansible_user_gid": 0,
@@ -643,48 +643,189 @@
                         "warnings": []
                     },
                     "resolved_action": "ansible.builtin.gather_facts",
-                    "start": "2024-12-16T11:12:29.638550",
+                    "start": "2024-12-17T03:42:06.873116",
                     "task": "Gathering Facts",
                     "task_action": "gather_facts",
                     "task_args": "",
                     "task_path": "/home/student/create_complex_user/complex_users.yml:2",
-                    "task_uuid": "aa802184-760f-3536-0cd1-00000000000c",
-                    "uuid": "9620fa35-9b8a-431f-bbd3-2695d61624cc"
+                    "task_uuid": "42040b11-fc0f-9ad3-8589-00000000000c",
+                    "uuid": "b9d51440-916c-41ca-8220-12dea30e5757"
                 },
                 {
-                    "__changed": false,
-                    "__duration": "0s",
+                    "__changed": true,
+                    "__duration": "2s",
                     "__host": "serverc",
                     "__number": 1,
-                    "__result": "Failed",
+                    "__result": "Ok",
                     "__task": "ansible.builtin.user",
                     "__task_action": "ansible.builtin.user",
-                    "duration": 0.03495,
-                    "end": "2024-12-16T11:12:31.239833",
+                    "duration": 2.301843,
+                    "end": "2024-12-17T03:42:10.796996",
                     "event_loop": null,
                     "host": "serverc",
-                    "ignore_errors": null,
-                    "play": "Install user",
-                    "play_pattern": "dev",
-                    "play_uuid": "aa802184-760f-3536-0cd1-000000000006",
+                    "play": "Installing the users",
+                    "play_pattern": "all",
+                    "play_uuid": "42040b11-fc0f-9ad3-8589-000000000006",
                     "playbook": "/home/student/create_complex_user/complex_users.yml",
-                    "playbook_uuid": "33a9a8cf-efe7-4ab4-8f8e-53a67f4d6a25",
+                    "playbook_uuid": "45a5285c-f1f1-4dee-92a3-69e3e2e310aa",
                     "remote_addr": "serverc",
                     "res": {
-                        "_ansible_no_log": false,
-                        "msg": "The task includes an option with an undefined variable. The error was: {{ lookup ('password',('password-') +itme.name +' length=6') }}: 'itme' is undefined\n\nThe error appears to be in '/home/student/create_complex_user/complex_users.yml': line 7, column 7, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n  tasks:\n    - vars:\n      ^ here\n"
+                        "changed": true,
+                        "msg": "All items completed",
+                        "results": [
+                            {
+                                "_ansible_item_label": {
+                                    "first": "sanmuga",
+                                    "id": 1005,
+                                    "last": "sekar",
+                                    "middle": "raja",
+                                    "name": "raja"
+                                },
+                                "_ansible_no_log": null,
+                                "ansible_loop_var": "item",
+                                "changed": true,
+                                "comment": "Sanmuga Raja Sekar",
+                                "create_home": true,
+                                "failed": false,
+                                "group": 1005,
+                                "home": "/home/raja",
+                                "invocation": {
+                                    "module_args": {
+                                        "append": false,
+                                        "authorization": null,
+                                        "comment": "Sanmuga Raja Sekar",
+                                        "create_home": true,
+                                        "expires": null,
+                                        "force": false,
+                                        "generate_ssh_key": null,
+                                        "group": null,
+                                        "groups": null,
+                                        "hidden": null,
+                                        "home": null,
+                                        "local": null,
+                                        "login_class": null,
+                                        "move_home": false,
+                                        "name": "raja",
+                                        "non_unique": false,
+                                        "password": "VALUE_SPECIFIED_IN_NO_LOG_PARAMETER",
+                                        "password_expire_max": null,
+                                        "password_expire_min": null,
+                                        "password_lock": null,
+                                        "profile": null,
+                                        "remove": false,
+                                        "role": null,
+                                        "seuser": null,
+                                        "shell": null,
+                                        "skeleton": null,
+                                        "ssh_key_bits": 0,
+                                        "ssh_key_comment": "ansible-generated on serverc.lab.example.com",
+                                        "ssh_key_file": null,
+                                        "ssh_key_passphrase": null,
+                                        "ssh_key_type": "rsa",
+                                        "state": "present",
+                                        "system": false,
+                                        "uid": 1005,
+                                        "umask": null,
+                                        "update_password": "always"
+                                    }
+                                },
+                                "item": {
+                                    "first": "sanmuga",
+                                    "id": 1005,
+                                    "last": "sekar",
+                                    "middle": "raja",
+                                    "name": "raja"
+                                },
+                                "name": "raja",
+                                "password": "NOT_LOGGING_PASSWORD",
+                                "shell": "/bin/bash",
+                                "state": "present",
+                                "system": false,
+                                "uid": 1005
+                            },
+                            {
+                                "_ansible_item_label": {
+                                    "first": "kannan",
+                                    "id": 1006,
+                                    "last": "rajan",
+                                    "middle": "uma",
+                                    "name": "uma"
+                                },
+                                "_ansible_no_log": null,
+                                "ansible_loop_var": "item",
+                                "changed": true,
+                                "comment": "Kannan Uma Rajan",
+                                "create_home": true,
+                                "failed": false,
+                                "group": 1006,
+                                "home": "/home/uma",
+                                "invocation": {
+                                    "module_args": {
+                                        "append": false,
+                                        "authorization": null,
+                                        "comment": "Kannan Uma Rajan",
+                                        "create_home": true,
+                                        "expires": null,
+                                        "force": false,
+                                        "generate_ssh_key": null,
+                                        "group": null,
+                                        "groups": null,
+                                        "hidden": null,
+                                        "home": null,
+                                        "local": null,
+                                        "login_class": null,
+                                        "move_home": false,
+                                        "name": "uma",
+                                        "non_unique": false,
+                                        "password": "VALUE_SPECIFIED_IN_NO_LOG_PARAMETER",
+                                        "password_expire_max": null,
+                                        "password_expire_min": null,
+                                        "password_lock": null,
+                                        "profile": null,
+                                        "remove": false,
+                                        "role": null,
+                                        "seuser": null,
+                                        "shell": null,
+                                        "skeleton": null,
+                                        "ssh_key_bits": 0,
+                                        "ssh_key_comment": "ansible-generated on serverc.lab.example.com",
+                                        "ssh_key_file": null,
+                                        "ssh_key_passphrase": null,
+                                        "ssh_key_type": "rsa",
+                                        "state": "present",
+                                        "system": false,
+                                        "uid": 1006,
+                                        "umask": null,
+                                        "update_password": "always"
+                                    }
+                                },
+                                "item": {
+                                    "first": "kannan",
+                                    "id": 1006,
+                                    "last": "rajan",
+                                    "middle": "uma",
+                                    "name": "uma"
+                                },
+                                "name": "uma",
+                                "password": "NOT_LOGGING_PASSWORD",
+                                "shell": "/bin/bash",
+                                "state": "present",
+                                "system": false,
+                                "uid": 1006
+                            }
+                        ]
                     },
                     "resolved_action": "ansible.builtin.user",
-                    "start": "2024-12-16T11:12:31.204883",
+                    "start": "2024-12-17T03:42:08.495153",
                     "task": "ansible.builtin.user",
                     "task_action": "ansible.builtin.user",
                     "task_args": "",
-                    "task_path": "/home/student/create_complex_user/complex_users.yml:7",
-                    "task_uuid": "aa802184-760f-3536-0cd1-000000000008",
-                    "uuid": "9f48a4a6-42f1-4a49-aa08-c93a5453580f"
+                    "task_path": "/home/student/create_complex_user/complex_users.yml:8",
+                    "task_uuid": "42040b11-fc0f-9ad3-8589-000000000008",
+                    "uuid": "067a6615-19f1-4da0-abea-07fcfaaca11d"
                 }
             ],
-            "uuid": "aa802184-760f-3536-0cd1-000000000006"
+            "uuid": "42040b11-fc0f-9ad3-8589-000000000006"
         }
     ],
     "settings_entries": {
@@ -812,20 +953,21 @@
         "settings_file_path": "None",
         "settings_file_source": "None"
     },
-    "status": "failed",
-    "status_color": 9,
+    "status": "successful",
+    "status_color": 10,
     "stdout": [
         "",
-        "PLAY [Install user] ************************************************************",
+        "PLAY [Installing the users] ****************************************************",
         "",
         "TASK [Gathering Facts] *********************************************************",
         "\u001b[0;32mok: [serverc]\u001b[0m",
         "",
         "TASK [ansible.builtin.user] ****************************************************",
-        "\u001b[0;31mfatal: [serverc]: FAILED! => {\"msg\": \"The task includes an option with an undefined variable. The error was: {{ lookup ('password',('password-') +itme.name +' length=6') }}: 'itme' is undefined\\n\\nThe error appears to be in '/home/student/create_complex_user/complex_users.yml': line 7, column 7, but may\\nbe elsewhere in the file depending on the exact syntax problem.\\n\\nThe offending line appears to be:\\n\\n  tasks:\\n    - vars:\\n      ^ here\\n\"}\u001b[0m",
+        "\u001b[0;33mchanged: [serverc] => (item={'name': 'raja', 'id': 1005, 'first': 'sanmuga', 'middle': 'raja', 'last': 'sekar'})\u001b[0m",
+        "\u001b[0;33mchanged: [serverc] => (item={'name': 'uma', 'id': 1006, 'first': 'kannan', 'middle': 'uma', 'last': 'rajan'})\u001b[0m",
         "",
         "PLAY RECAP *********************************************************************",
-        "\u001b[0;31mserverc\u001b[0m                    : \u001b[0;32mok=1   \u001b[0m changed=0    unreachable=0    \u001b[0;31mfailed=1   \u001b[0m skipped=0    rescued=0    ignored=0   "
+        "\u001b[0;33mserverc\u001b[0m                    : \u001b[0;32mok=2   \u001b[0m \u001b[0;33mchanged=1   \u001b[0m unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   "
     ],
     "version": "2.0.0"
 }

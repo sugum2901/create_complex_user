@@ -1,5 +1,18 @@
 {
-    "plays": [],
+    "plays": [
+        {
+            "__play_name": "Installing the users",
+            "name": "Installing the users",
+            "pattern": "all",
+            "play": "Installing the users",
+            "play_pattern": "all",
+            "play_uuid": "861f8270-fdd1-40e4-f4dd-000000000006",
+            "playbook": "/home/student/create_complex_user/complex_users.yml",
+            "playbook_uuid": "8bf988ae-6458-4a6a-be87-fd0e17d1be9c",
+            "tasks": [],
+            "uuid": "861f8270-fdd1-40e4-f4dd-000000000006"
+        }
+    ],
     "settings_entries": {
         "ansible-navigator": {
             "ansible": {
@@ -128,16 +141,11 @@
     "status": "failed",
     "status_color": 9,
     "stdout": [
-        "\u001b[0;31mERROR! A malformed block was encountered while loading tasks: {'vars': {'password': \"{{ lookup ('password',('password-') +itme.name+' length=6') }}\"}, 'ansible.builtin.user': {'name': '{{ itme.name}}', 'state': 'present', 'uid': '{{ item.id }}', 'password': \"{{ password | password_hash('sha256') }}\", 'comment': \"{{ item.first | capitalize +' '+ item.middle | capitalize +' '+ item.last | capitalize }}\"}, 'loop': '{{ users }}'} should be a list or None but is <class 'ansible.parsing.yaml.objects.AnsibleMapping'>\u001b[0m",
-        "\u001b[0;31m\u001b[0m",
-        "\u001b[0;31mThe error appears to be in '/home/student/create_complex_user/complex_users.yml': line 2, column 3, but may\u001b[0m",
-        "\u001b[0;31mbe elsewhere in the file depending on the exact syntax problem.\u001b[0m",
-        "\u001b[0;31m\u001b[0m",
-        "\u001b[0;31mThe offending line appears to be:\u001b[0m",
-        "\u001b[0;31m\u001b[0m",
-        "\u001b[0;31m---\u001b[0m",
-        "\u001b[0;31m- name: Install user\u001b[0m",
-        "\u001b[0;31m  ^ here\u001b[0m"
+        "",
+        "PLAY [Installing the users] ****************************************************",
+        "\u001b[0;31mERROR! vars file user_list.ymlm was not found\u001b[0m",
+        "\u001b[0;31mCould not find file on the Ansible Controller.\u001b[0m",
+        "\u001b[0;31mIf you are using a module and expect the file to exist on the remote, see the remote_src option\u001b[0m"
     ],
     "version": "2.0.0"
 }
